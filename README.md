@@ -1,10 +1,3 @@
-- 👋 Hi, I’m Fahad.
-- 👀 I’m interested in learning coding and mainy interested in Artificial Intelligence.
-- 🌱 I’m currently learning Full Stack Development with Python.
-- 💞️ I’m looking to collaborate on learning Data Structure and Algorithms(to be able to understand more thoroughly).
-- 📫 How to reach me: You can email me on fahadrizwan893@gmail.com.
+6+ months of experience in different domains with different technologies. A tech-nerd who loves to explore new techs. Most passionate about Artificial Intelligence (AI) and Machine Learning. Skilled in Front-End Web Development and now working as ERP/CRM Developer (Python & Odoo) as ERP Industry caught my interest and secure an internship without any Degree, just with a short course. Strong in Research & Development (R&D) and don't hesitate to apply what comes to my mind. A confident individual with good communication skills and working under the supervision of seniors to learn from them. Soon going to start BSCS at Virtual University (VU).
 
-<!---
-Fahad-2001/Fahad-2001 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+fahadrizwan893@gmail.com
