@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!--        <report-->
+        <!--                id="report_sale_product_view_xls"-->
+        <!--                model="account.move"-->
+        <!--                report_type="xlsx"-->
+        <!--                string="Sale Tax Input Report"-->
+        <!--                name="sale_reports.report_product_view_xls"-->
+        <!--                file="sale_reports.report_product_view_xls"-->
+        <!--                menu="False"-->
+        <!--        />-->
+
+        <record id="report_sale_product_view_xls" model="ir.actions.report">
+            <field name="name">Sales Tax Input Report</field>
+            <field name="model">account.move</field>
+            <field name="report_type">xlsx</field>
+            <field name="report_name">sale_reports.report_product_view_xls</field>
+            <field name="report_file">sale_reports.report_product_view_xls</field>
+        </record>
+
+
+        <record id="report_invoice_view_xls" model="ir.actions.report">
+            <field name="name">Sales Tax Output Report</field>
+            <field name="model">account.move</field>
+            <field name="report_type">xlsx</field>
+            <field name="report_name">sale_reports.report_invoice_view_xls</field>
+            <field name="report_file">sale_reports.report_invoice_view_xls</field>
+        </record>
+
+        <!--         <report-->
+        <!--                id="report_invoice_view_xls"-->
+        <!--                model="account.move"-->
+        <!--                report_type="xlsx"-->
+        <!--                string="Sale Tax Output Report"-->
+        <!--                name="sale_reports.report_invoice_view_xls"-->
+        <!--                file="sale_reports.report_invoice_view_xls"-->
+        <!--                menu="False"-->
+        <!--        />-->
+
+    </data>
+</odoo>

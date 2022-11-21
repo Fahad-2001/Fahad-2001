@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="view_product_view_wizard_form" model="ir.ui.view">
+        <field name="name">product.view.wizard.form</field>
+        <field name="model">product.view.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group>
+                        <field name="date_from"/>
+                    </group>
+                    <group>
+                        <field name="date_to"/>
+                    </group>
+                </group>
+                <footer>
+                    <button name="action_product_excel_report" string="Print" type="object"
+                            class="btn-primary" data-hotkey="q"/>
+                    <button special="cancel" data-hotkey="z" string="Discard"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_product_wizard" model="ir.actions.act_window">
+        <field name="name">Bill Report</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">product.view.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="root_wizard_menu"
+              name="Sale Tax Pakistan Reports"
+              parent="account.menu_finance_reports"
+              sequence="-10"/>
+
+    <menuitem id="report_menu_id"
+              name="Sales Tax Input"
+              parent="root_wizard_menu"
+              action="action_product_wizard"
+              sequence="1"/>
+
+</odoo>
